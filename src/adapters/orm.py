@@ -1,6 +1,6 @@
 from sqlalchemy import Table, Column, String, Integer, Date
 from sqlalchemy.orm import registry
-from domain import model
+from src.domain import model
 
 mapper_registry = registry()
 
